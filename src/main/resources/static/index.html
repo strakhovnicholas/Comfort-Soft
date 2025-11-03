@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поиск N-го минимального числа</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Поиск N-го минимального числа в XLSX файле</h1>
+
+    <div class="form-group">
+        <label for="fileInput">Выберите XLSX файл:</label>
+        <input type="file" id="fileInput" accept=".xlsx" />
+    </div>
+
+    <div class="form-group">
+        <label for="numberInput">Введите N (номер минимального):</label>
+        <input type="number" id="numberInput" min="1" placeholder="Например: 1, 2, 3..." />
+    </div>
+
+    <div class="button-group">
+        <button id="submitBtn" onclick="findNthMin()" disabled>Решить</button>
+        <button id="resetBtn" onclick="resetForm()">Сбросить</button>
+    </div>
+
+    <div id="result" class="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

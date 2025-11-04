@@ -12,7 +12,7 @@
 
 2.  **Скачайте исходный код:**
     ```bash
-    git clone https://github.com/strakhovnicholas/Comfort-Soft.git
+    git clone https://github.com/strakhovnicholas/Comfort-Soft.git  
     cd Comfort-Soft # Переход в папку проекта
     ```
 
@@ -42,7 +42,7 @@
 
 2.  **Скачайте исходный код:**
     ```bash
-    git clone https://github.com/strakhovnicholas/Comfort-Soft.git
+    git clone https://github.com/strakhovnicholas/Comfort-Soft.git  
     cd Comfort-Soft # Переход в папку проекта
     ```
 
@@ -60,3 +60,15 @@
 
 5.  **Откройте приложение:**
     Откройте браузер и перейдите по адресу `http://localhost:8080`.
+
+## Swagger UI
+
+Приложение включает в себя интерфейс Swagger UI для документации и тестирования API.
+
+После запуска приложения (любым из способов выше), Swagger UI будет доступен по адресу:
+`http://localhost:8080/swagger-ui/index.html`
+
+Там вы сможете:
+*   Просмотреть доступные API-эндпоинты.
+*   Узнать, какие параметры они принимают.
+*   Протестировать их прямо из браузера.
